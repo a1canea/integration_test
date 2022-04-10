@@ -10,7 +10,7 @@ void main() {
     "Not inputting a text and wanting to go to the display page shows "
     "an error and prevents from going to the display page.",
     (widgetTester) async {
-      await widgetTester.pumpWidget(MyApp());
+      await widgetTester.pumpWidget(const MyApp());
       await widgetTester.tap(find.byType(FloatingActionButton));
 
       // for waiting all animations finished
