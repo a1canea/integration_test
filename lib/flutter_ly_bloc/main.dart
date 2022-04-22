@@ -4,10 +4,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
 
-import '../bl/cubit/counter_cubit.dart';
-import '../bl/cubit/internet_cubit.dart';
-import '../utils/app_bloc_observer.dart';
-import 'router/app_router.dart';
+import 'bl/cubit/counter_cubit.dart';
+import 'bl/cubit/internet_cubit.dart';
+import 'utils/app_bloc_observer.dart';
+import 'presentation/router/app_router.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
